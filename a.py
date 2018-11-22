@@ -139,7 +139,8 @@ $R@i.~~ !     :   ~$$$$$B$$en:``
 | |/   |/ /    | |      ___| | | |___   / /  | | | | \  | 
 |___/|___/     |_|     /_____/ \_____| /_/   |_| |_|  \_| 
 
-       Coded By: S0u1 http://github.com/HLoTW/      
+       Coded By: S0u1 http://github.com/HLoTW/     
+       Beta Testers: Ala, Vince, Protoxic 
     """
         for N, line in enumerate(x.split("\n")):
             sys.stdout.write("\x1b[1;%dm%s%s\n" % (random.choice(colors), line, clear))
