@@ -80,7 +80,7 @@ class S0u1wp():
             self.print_logo()
             print y + '---------------------------------------------------'
             print g + '    [' + y + '+' + g + ']' + r + ' Error: ' + y + '    [ ' + w + \
-                  ' ConnectionError! Maybe server Down, Or your ip blocked! ' + y + ']'
+                  ' ConnectionError! Maybe server Down, Or your ip is blocked! ' + y + ']'
 
     def __option(self):
         try:
@@ -111,21 +111,35 @@ class S0u1wp():
         colors = [36, 32, 34, 35, 31, 37, 30, 33, 38, 39]
 
         x = """
-#                                             __       
-#                                        ...-'  |`.    
-#                                        |      |  |   
-#                                        ....   |  |   
-#                 .-''` ''-.               -|   |  |   
-#               .'          '.              |   |  |   
-#         _    /              `   _    _ ...'   `--'   
-#       .' |  '                ' | '  / ||         |`. 
-#      .   | /|         .-.    |.' | .' |` --------\ | 
-#    .'.'| |//.        |   |   ./  | /  | `---------'  
-#  .'.'.-'  /  .       '._.'  /|   `'.  |              
-#  .'   \_.'    '._         .' '   .'|  '/             
-#                  '-....-'`    `-'  `--'        
+                      :::!~!!!!!:.
+                  .xUHWH!! !!?M88WHX:.
+                .X*#M@$!!  !X!M$$$$$$WWx:.
+               :!!!!!!?H! :!$!$$$$$$$$$$8X:
+              !!~  ~:~!! :~!$!#$$$$$$$$$$8X:
+             :!~::!H!<   ~.U$X!?R$$$$$$$$MM!
+             ~!~!!!!~~ .:XW$$$U!!?$$$$$$RMM!
+               !:~~~ .:!M"T#$$$$WX??#MRRMMM!
+               ~?WuxiW*`   `"#$$$$8!!!!??!!!
+             :X- M$$$$       `"T#$T~!8$WUXU~
+            :%`  ~#$$$m:        ~!~ ?$$$$$$
+          :!`.-   ~T$$$$8xx.  .xWW- ~""##*"
+.....   -~~:<` !    ~?T#$$@@W@*?$$      /`
+W$@@M!!! .!~~ !!     .:XUW$W!~ `"~:    :
+#"~~`.:x%`!!  !H:   !WM$$$$Ti.: .!WUn+!`
+:::~:!!`:X~ .: ?H.!u "$$$B$$$!W:U!T$$M~
+.~~   :X@!.-~   ?@WTWo("*$$$W$TH$! `
+Wi.~!X$?!-~    : ?$$$B$Wu("**$RM!
+$R@i.~~ !     :   ~$$$$$B$$en:``
+?MXT@Wx.~    :     ~"##*$$$$M~
 
+ _          __  _____   _____   _____       ___   __   _  
+| |        / / |  _  \ /  ___/ /  ___|     /   | |  \ | | 
+| |  __   / /  | |_| | | |___  | |        / /| | |   \| | 
+| | /  | / /   |  ___/ \___  \ | |       / / | | | |\   | 
+| |/   |/ /    | |      ___| | | |___   / /  | | | | \  | 
+|___/|___/     |_|     /_____/ \_____| /_/   |_| |_|  \_| 
 
+       Coded By: S0u1 http://github.com/HLoTW/      
     """
         for N, line in enumerate(x.split("\n")):
             sys.stdout.write("\x1b[1;%dm%s%s\n" % (random.choice(colors), line, clear))
@@ -196,13 +210,13 @@ class S0u1wp():
                 Cpanel_username = Hunt_Path_User()
                 Path_Host = Hunt_Path_Host()
                 if Cpanel_username == None:
-                    print r + '    [' + y + '+' + r + ']' + w + ' Cpanel Username: ' + r + 'Not FOund'
+                    print r + '    [' + y + '+' + r + ']' + w + ' Cpanel Username: ' + r + 'Not Found'
 
                 else:
                     print r + '    [' + y + '+' + r + ']' + w + ' Cpanel Username: ' + m + Cpanel_username
 
                 if Path_Host == None:
-                    print r + '    [' + y + '+' + r + ']' + w + ' User Path Host : ' + r + 'Not FOund'
+                    print r + '    [' + y + '+' + r + ']' + w + ' User Path Host : ' + r + 'Not Found'
                 else:
                     print r + '    [' + y + '+' + r + ']' + w + ' User Path Host : ' + m + Path_Host
 
@@ -211,7 +225,7 @@ class S0u1wp():
             self.print_logo()
             print y + '---------------------------------------------------'
             print g + '    [' + y + '+' + g + ']' + r + ' Error: ' + y + '    [ ' + w + \
-                  ' ConnectionError! Maybe server Down, Or your ip blocked! ' + y + ']'
+                  ' ConnectionError! Maybe server Down, Or your ip is blocked! ' + y + ']'
 
     def Plugin_NamE_Vuln_TeST(self, Plugin_NaME):
         num = 1
@@ -232,7 +246,7 @@ class S0u1wp():
                     uz = 'www.wpvulndb.com/vulnerabilities/' + str(az[cal])
                     Get_title = requests.get('http://' + uz, timeout=5)
                     Title = re.findall('<title>(.*)</title>', Get_title.text.encode('utf-8'))
-                    print r + '        [' + y + 'MayBe Vuln' + r + '] ' + w + uz + ' --- ' + r + \
+                    print r + '        [' + y + 'MiGhT bE VuLn' + r + '] ' + w + uz + ' --- ' + r + \
                           Title[0].encode('utf-8').split('-')[0]
                     cal = cal + 2
                 cal = 0
@@ -255,7 +269,7 @@ class S0u1wp():
             self.print_logo()
             print y + '---------------------------------------------------'
             print g + '    [' + y + '+' + g + ']' + r + ' Error: ' + y + '    [ ' + w + \
-                  ' ConnectionError! Maybe server Down, Or your ip blocked! ' + y + ']'
+                  ' ConnectionError! Maybe server Down, Or your ip is blocked! ' + y + ']'
 
     def GeT_PluGin_Name(self):
         plugin_NamEz = {}
